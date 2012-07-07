@@ -1,0 +1,8 @@
+source 'http://rubygems.org'
+
+group :development do 
+  gem 'win32console'    
+  gem 'rb-notifu'
+  gem 'yajl-ruby'
+  gem 'guard-livereload' 
+end 

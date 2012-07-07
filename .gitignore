@@ -16,3 +16,10 @@ tmp
 .yardoc
 _yardoc
 doc/
+
+bin
+obj
+*.suo
+*.user
+packages
+_Resharper*
