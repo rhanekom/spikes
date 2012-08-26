@@ -1,0 +1,11 @@
+source 'http://rubygems.org'
+
+gem 'sass'
+
+group :development do 
+  gem 'rb-notifu'
+  gem 'yajl-ruby'
+  gem 'guard'
+  gem 'guard-sass'
+  gem 'guard-livereload' 
+end 

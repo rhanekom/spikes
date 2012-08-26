@@ -7,5 +7,5 @@ require.config({
 
 
 require(['lib/modules/template'], function(template) {
-  template.showName("Jack");
+  template.showName("Somebod2y");
 });
