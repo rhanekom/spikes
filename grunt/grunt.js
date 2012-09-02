@@ -15,18 +15,18 @@ module.exports = function(grunt) {
       files: ['grunt.js', 'lib/**/*.js', 'test/**/*.js']
     },
     qunit: {
-      files: ['test/**/*.html']
+      files: ['test/unit/**/*.html']
     },
     concat: {
       dist: {
-        src: ['<banner:meta.banner>', '<file_strip_banner:lib/calculator.js>'],
-        dest: 'dist/calculator.js'
+        src: ['<banner:meta.banner>', '<file_strip_banner:lib/Calculator.js>'],
+        dest: 'dist/Calculator.js'
       }
     },
     min: {
       dist: {
         src: ['<banner:meta.banner>', '<config:concat.dist.dest>'],
-        dest: 'dist/calculator.min.js'
+        dest: 'dist/Calculator.min.js'
       }
     },
     watch: {
@@ -47,12 +47,20 @@ module.exports = function(grunt) {
         eqnull: true,
         browser: true
       },
+      jasmine: {
+        all: {
+          src :['test/specs/SpecRunner.html'],
+          errorReporting: true
+        }
+      },
       globals: {}
     },
     uglify: {}
   });
 
-  // Default task.
-  grunt.registerTask('default', 'lint qunit concat min');
 
+  grunt.loadNpmTasks('grunt-jasmine-task');
+
+  // Default task.
+  grunt.registerTask('default', 'lint qunit jasmine concat min');
 };

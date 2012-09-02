@@ -1,5 +1,7 @@
 /*jshint undef:false */
 
+var calculator = new Calculator();
+
 module("calculator");
 
 test( "add adds two numbers", function() {
