@@ -7,5 +7,6 @@ group :development do
   gem 'yajl-ruby'
   gem 'guard'
   gem 'guard-sass'
-  gem 'guard-livereload' 
+  gem 'guard-livereload'
+  gem 'guard-compass'
 end 

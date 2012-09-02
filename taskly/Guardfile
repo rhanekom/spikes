@@ -7,3 +7,7 @@ guard 'livereload' do
 end
 
 guard 'sass', :input => 'assets/styles/sass', :output => 'assets/styles/css'
+
+guard 'compass' do
+  watch('^src/(.*)\.s[ac]ss')
+end
