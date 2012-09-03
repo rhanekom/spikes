@@ -47,19 +47,20 @@ module.exports = function(grunt) {
         eqnull: true,
         browser: true
       },
-      jasmine: {
-        all: {
-          src :['test/specs/SpecRunner.html'],
-          errorReporting: true
-        }
-      },
       globals: {}
     },
+    jasmine : {
+      src : 'lib/**/*.js',
+      specs : 'test/specs/**/*.js',
+      junit : {
+        output : 'junit/'
+      }
+     },
     uglify: {}
   });
 
 
-  grunt.loadNpmTasks('grunt-jasmine-task');
+  grunt.loadNpmTasks('grunt-jasmine-runner');
 
   // Default task.
   grunt.registerTask('default', 'lint qunit jasmine concat min');
