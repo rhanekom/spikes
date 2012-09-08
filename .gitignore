@@ -24,3 +24,5 @@ obj
 packages
 _Resharper*
 *~
+.sass-cache
+

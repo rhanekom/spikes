@@ -1,0 +1,13 @@
+# A sample Gemfile
+source "https://rubygems.org"
+
+# gem "rails"
+
+group :development do
+  gem 'guard'
+  gem 'rb-inotify'
+  gem 'rb-notifu'
+  gem 'yajl-ruby'
+  gem 'guard-compass'
+  gem 'guard-livereload'
+end
