@@ -66,3 +66,76 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block;
 }
+
+/* Sprites */
+/* line 66, famfammini/*.png */
+.famfammini-sprite, .famfammini-action_back, .famfammini-action_forward, .famfammini-action_go, .famfammini-action_paste, .attention {
+  background: url('/images/famfammini-sd9e72edca5.png') no-repeat;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.famfammini-action_back {
+  background-position: 0 -16px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.famfammini-action_forward {
+  background-position: 0 0;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.famfammini-action_go {
+  background-position: 0 -48px;
+}
+
+/* line 60, ../../../../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/sprites/_base.scss */
+.famfammini-action_paste {
+  background-position: 0 -32px;
+}
+
+/* End Sprites */
+/* line 17, ../sass/screen.scss */
+header, footer {
+  font-size: 25px;
+}
+
+/* line 21, ../sass/screen.scss */
+font-size {
+  font-size: 15px;
+}
+
+/* line 30, ../sass/screen.scss */
+article {
+  font-size: 20px;
+}
+/* line 34, ../sass/screen.scss */
+article header {
+  font-size: 20px;
+  color: blue;
+}
+/* line 39, ../sass/screen.scss */
+article footer {
+  font-size: 20px;
+  color: green;
+}
+/* line 44, ../sass/screen.scss */
+article aside {
+  font-size: 20px;
+  color: brown;
+}
+
+/* line 50, ../sass/screen.scss */
+.attention {
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #bbb;
+  width: 400px;
+  height: 16px;
+  background-position: 0 -16px;
+}

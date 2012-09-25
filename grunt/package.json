@@ -1,0 +1,9 @@
+{
+  "name"            : "grunt-spike",
+  "description"     : "Example application using grunt",
+  "version"         : "1.0.0",
+  "homepage"        : "",
+  "devDependencies" : {
+    "grunt-jasmine-runner" : "0.5.2"
+  }
+}

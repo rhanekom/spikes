@@ -24,7 +24,7 @@ obj
 packages
 _Resharper*
 *~
-
+.sass-cache
 # Eclipse files
 
 *.pydevproject

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+<testsuite name="Calculator" errors="0" tests="0" failures="0" time="0" timestamp="[object Object]">
+</testsuite>
+<testsuite name="Calculator.Add" errors="0" tests="1" failures="0" time="0.004" timestamp="[object Object]">
+  <testcase classname="Calculator.Add" name="adds two numbers" time="0.003"></testcase>
+</testsuite>
+<testsuite name="Calculator.Minus" errors="0" tests="1" failures="0" time="0.001" timestamp="[object Object]">
+  <testcase classname="Calculator.Minus" name="subtracts two numbers" time="0.001"></testcase>
+</testsuite>
+</testsuites>
