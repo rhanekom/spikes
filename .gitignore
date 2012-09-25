@@ -54,3 +54,8 @@ local.properties
 # PDT-specific
 .buildpath
 
+.classpath
+.project
+.settings/
+target/
+
