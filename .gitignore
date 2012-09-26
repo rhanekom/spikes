@@ -28,7 +28,6 @@ _Resharper*
 # Eclipse files
 
 *.pydevproject
-.project
 .metadata
 bin/**
 tmp/**
@@ -55,7 +54,6 @@ local.properties
 .buildpath
 
 .classpath
-.project
 .settings/
 target/
 
